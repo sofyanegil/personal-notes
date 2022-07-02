@@ -1,0 +1,47 @@
+@import '../App.css';
+
+.notes-item {
+  margin: 5px;
+  padding: 15px;
+  flex: 25%;
+}
+
+.notes-item__body {
+  text-align: left;
+  background-color: var(--pal4);
+  padding: 20px;
+  border-left: 5px solid var(--pal1);
+  width: 100%;
+  min-height: 300px;
+}
+
+.notes-item__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.notes-item__date {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(62, 57, 57);
+  background-color: var(--pal1);
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.notes-item__text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(62, 57, 57);
+  line-height: 1.5;
+}
+
+.notes-item__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
