@@ -1,6 +1,5 @@
 import React from 'react';
 import NotesItem from './NotesItem';
-import '../styles/noteslist.css';
 
 export default function NotesList({
   title, notes, onDelete, onArchive,

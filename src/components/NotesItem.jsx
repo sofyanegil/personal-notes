@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/notesitem.css';
 import { showFormattedDate } from '../utils';
 import ArchiveButton from './Buttons/ArchiveButton';
 import DeleteButton from './Buttons/DeleteButton';

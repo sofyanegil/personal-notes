@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/search.css';
 
 export default function NotesSearch({ searchNotes }) {
   return (
